@@ -1,0 +1,31 @@
+{
+  "name": "genlog-cli",
+  "version": "1.0.1",
+  "description": "CHANGELOG.md文件自动生成工具",
+  "main": "index.js",
+  "bin": {
+    "genlog": "lib/index.js"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "genlog",
+    "CHANGELOG.md",
+    "版本号",
+    "日志"
+  ],
+  "author": "zlmdb",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.0.0",
+    "inquirer": "^7.3.3",
+    "mem-fs": "^3.0.0",
+    "mem-fs-editor": "^10.0.2",
+    "moment": "^2.29.4"
+  }
+}
